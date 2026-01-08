@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, MessageCircle, Instagram, Github, Linkedin, Twitter, Facebook, Globe } from "lucide-react";
+import { MessageCircle, Instagram, Github, Linkedin, Twitter, Facebook, Globe, Bot } from "lucide-react";
 import messengerQR from "@/assets/messenger-qr.jpg";
 import instagramQR from "@/assets/instagram-qr.jpg";
 
@@ -14,6 +14,39 @@ const Contact = () => {
         <p className="text-center text-muted-foreground mb-12 text-lg">
           Let's connect and collaborate
         </p>
+
+        {/* AI Chatbot Section */}
+        <Card className="p-6 mb-8 bg-gradient-to-r from-tech-cyan/10 to-tech-blue/10 backdrop-blur border-primary/40 animate-fade-in">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <Bot className="h-8 w-8 text-primary animate-pulse-glow" />
+              <div>
+                <h3 className="text-xl font-bold">Chat with my AI Bot</h3>
+                <p className="text-muted-foreground text-sm">Want to have a conversation? Try my AI assistants!</p>
+              </div>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <Button 
+                className="bg-gradient-to-r from-tech-cyan to-tech-blue hover:opacity-90 text-tech-dark font-semibold"
+                asChild
+              >
+                <a href="https://flyiochatbot.fly.dev/" target="_blank" rel="noopener noreferrer">
+                  <Bot className="mr-2 h-4 w-4" />
+                  Fly.io Chatbot
+                </a>
+              </Button>
+              <Button 
+                className="bg-gradient-to-r from-tech-blue to-tech-purple hover:opacity-90 text-white font-semibold"
+                asChild
+              >
+                <a href="https://ibnsina-voice-companion.lovable.app/" target="_blank" rel="noopener noreferrer">
+                  <Bot className="mr-2 h-4 w-4" />
+                  Voice Companion
+                </a>
+              </Button>
+            </div>
+          </div>
+        </Card>
 
         <div className="grid lg:grid-cols-2 gap-8">
           {/* QR Codes */}
