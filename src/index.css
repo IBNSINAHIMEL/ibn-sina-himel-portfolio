@@ -8,6 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 189 94% 38%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 20% 45%;
+
+    --accent: 189 94% 38%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214 32% 85%;
+    --input: 214 32% 85%;
+    --ring: 189 94% 38%;
+
+    --radius: 0.75rem;
+
+    /* Custom portfolio colors */
+    --tech-cyan: 189 94% 38%;
+    --tech-blue: 217 91% 50%;
+    --tech-dark: 222 47% 11%;
+    --tech-darker: 210 40% 94%;
+    --tech-card: 0 0% 100%;
+    --tech-gradient-start: 189 94% 38%;
+    --tech-gradient-end: 217 91% 50%;
+    --tech-purple: 280 85% 60%;
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
     --background: 222 47% 11%;
     --foreground: 210 40% 98%;
 
@@ -36,9 +82,7 @@ All colors MUST be HSL.
     --input: 215 28% 17%;
     --ring: 189 94% 43%;
 
-    --radius: 0.75rem;
-
-    /* Custom portfolio colors */
+    /* Custom portfolio colors for dark */
     --tech-cyan: 189 94% 43%;
     --tech-blue: 217 91% 60%;
     --tech-dark: 222 47% 11%;
@@ -46,10 +90,7 @@ All colors MUST be HSL.
     --tech-card: 217 33% 17%;
     --tech-gradient-start: 189 94% 43%;
     --tech-gradient-end: 217 91% 60%;
-
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --tech-purple: 280 85% 65%;
   }
 }
 
