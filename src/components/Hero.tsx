@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Twitter, Facebook, Globe } from "lucide-react";
+import { Card } from "@/components/ui/card";
+import { Github, Linkedin, Twitter, Facebook, Globe, Bot } from "lucide-react";
 import profilePicture from "@/assets/profile-picture.jpg";
 
 const Hero = () => {
@@ -112,6 +113,41 @@ const Hero = () => {
                 <a href="#projects">View Projects</a>
               </Button>
             </div>
+
+            {/* AI Chatbot Section */}
+            <Card className="p-4 mt-2 bg-gradient-to-r from-tech-cyan/10 to-tech-blue/10 backdrop-blur border-primary/40">
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div className="flex items-center gap-3">
+                  <Bot className="h-6 w-6 text-primary" />
+                  <div>
+                    <h3 className="text-base font-bold">Chat with my AI Bot</h3>
+                    <p className="text-muted-foreground text-xs">Try my AI assistants!</p>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Button 
+                    size="sm"
+                    className="bg-gradient-to-r from-tech-cyan to-tech-blue hover:opacity-90 text-tech-dark font-semibold"
+                    asChild
+                  >
+                    <a href="https://flyiochatbot.fly.dev/" target="_blank" rel="noopener noreferrer">
+                      <Bot className="mr-1 h-3 w-3" />
+                      Fly.io Chatbot
+                    </a>
+                  </Button>
+                  <Button 
+                    size="sm"
+                    className="bg-gradient-to-r from-tech-blue to-tech-purple hover:opacity-90 text-white font-semibold"
+                    asChild
+                  >
+                    <a href="https://ibnsina-voice-companion.lovable.app/" target="_blank" rel="noopener noreferrer">
+                      <Bot className="mr-1 h-3 w-3" />
+                      Voice Companion
+                    </a>
+                  </Button>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </div>
