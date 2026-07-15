@@ -30,9 +30,9 @@ const About = () => {
             </p>
 
             <p className="text-lg text-foreground/90 leading-relaxed">
-              My expertise lies at the intersection of artificial intelligence, security, 
-              and network systems. I specialize in building intelligent solutions that are 
-              not only powerful but also secure and scalable.
+              My expertise spans machine learning, cryptography, networking, web development,
+              and game development. I specialize in building intelligent, secure, and scalable
+              solutions — from AI-powered systems and modern web apps to interactive games.
             </p>
 
             <div className="space-y-4 pt-4">
