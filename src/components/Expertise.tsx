@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Brain, Shield, Network } from "lucide-react";
+import { Brain, Shield, Network, Code, Gamepad2 } from "lucide-react";
 
 const Expertise = () => {
   const skills = [
@@ -21,6 +21,18 @@ const Expertise = () => {
       description: "Network architecture, protocols, and distributed systems design.",
       gradient: "from-green-500 to-emerald-500",
     },
+    {
+      icon: Code,
+      title: "Web Development",
+      description: "Modern web applications with responsive design, clean UI, and scalable architecture.",
+      gradient: "from-orange-500 to-red-500",
+    },
+    {
+      icon: Gamepad2,
+      title: "Game Development",
+      description: "Interactive game design, gameplay mechanics, and immersive digital experiences.",
+      gradient: "from-blue-500 to-indigo-500",
+    },
   ];
 
   return (
@@ -33,7 +45,7 @@ const Expertise = () => {
           Specialized knowledge in cutting-edge technologies
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {skills.map((skill, index) => (
             <Card
               key={index}
