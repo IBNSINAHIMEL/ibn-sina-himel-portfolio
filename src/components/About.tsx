@@ -24,7 +24,7 @@ const About = () => {
           {/* About Content */}
           <div className="space-y-6 animate-fade-in">
             <p className="text-lg text-foreground/90 leading-relaxed">
-              I'm a Computer Science graduate from the prestigious University of Dhaka, 
+              I'm a Computer Science graduate from the University of Dhaka, 
               where I developed a deep passion for cutting-edge technologies and their 
               real-world applications.
             </p>
