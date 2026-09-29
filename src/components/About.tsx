@@ -40,6 +40,14 @@ const About = () => {
               technologies, and to problem solving.
             </p>
 
+            <p className="text-lg text-foreground/90 leading-relaxed">
+              I have done different kinds of work like web development, game development,
+              and research. In web development and research I have done many machine
+              learning implementations, besides security, networking protocols, script
+              fixing, and different types of problem solving.
+            </p>
+
+
             <div className="space-y-4 pt-4">
               <Card className="p-4 bg-card/50 backdrop-blur border-primary/20 hover:border-primary/40 transition-all">
                 <div className="flex items-center gap-3">
