@@ -35,6 +35,11 @@ const About = () => {
               solutions — from AI-powered systems and modern web apps to interactive games.
             </p>
 
+            <p className="text-lg text-foreground/90 leading-relaxed">
+              I am a fast learner when it comes to developing with and adapting to new
+              technologies, and to problem solving.
+            </p>
+
             <div className="space-y-4 pt-4">
               <Card className="p-4 bg-card/50 backdrop-blur border-primary/20 hover:border-primary/40 transition-all">
                 <div className="flex items-center gap-3">

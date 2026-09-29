@@ -36,9 +36,9 @@ const Hero = () => {
 
             <p className="text-lg text-foreground/80 max-w-2xl">
               Specialist in <span className="text-tech-cyan font-semibold">Machine Learning</span>, 
-              <span className="text-tech-cyan font-semibold"> Cryptography</span>, and 
-              <span className="text-tech-cyan font-semibold"> Networking</span>. 
-              Graduated from Dhaka University with a passion for building secure and intelligent systems.
+              <span className="text-tech-cyan font-semibold"> Cryptography</span>, 
+              <span className="text-tech-cyan font-semibold"> Networking</span>, and 
+              <span className="text-tech-cyan font-semibold"> Web Development</span>.
             </p>
 
             {/* Social Links */}
